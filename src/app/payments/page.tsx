@@ -1,16 +1,16 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-export default function Home() {
+export default function PaymentsPage() {
   return (
     <div className="container mx-auto py-10">
       <Card>
         <CardHeader>
-          <CardTitle>Welcome to FitTrack Lite</CardTitle>
+          <CardTitle>Payments</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Manage your students and their schedules with ease.
+            Here you can manage your payments.
           </p>
         </CardContent>
       </Card>

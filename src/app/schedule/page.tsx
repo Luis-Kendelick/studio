@@ -1,16 +1,16 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
-export default function Home() {
+export default function SchedulePage() {
   return (
     <div className="container mx-auto py-10">
       <Card>
         <CardHeader>
-          <CardTitle>Welcome to FitTrack Lite</CardTitle>
+          <CardTitle>Schedule</CardTitle>
         </CardHeader>
         <CardContent>
           <p className="text-muted-foreground">
-            Manage your students and their schedules with ease.
+            Here you can manage your schedule.
           </p>
         </CardContent>
       </Card>
